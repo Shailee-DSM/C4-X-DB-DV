@@ -1,1 +1,5 @@
-taskLists: []
+taskLists:
+  - id: '4e362f29-69e0-4227-9e13-e678e3a1b0d2'
+    userId: 'f236d8ff-356d-4d9a-6b48-08dd81b6446c'
+    modelObjectIds:
+      - 'f2ba6e68-f5d6-4e8e-a6f0-5b463db0360d'
