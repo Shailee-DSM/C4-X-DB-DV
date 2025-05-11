@@ -1,5 +1,5 @@
 id: '02b9fecc-2880-45ed-ab20-96baa7d37676'
-name: 'CUSTOMERORDER'
+name: 'CUSTOMER_ORDER'
 isDeactivated: false
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
@@ -135,4 +135,3 @@ relationships:
       - referenceTermId: '09b78fce-9fb7-4921-9f97-d8260673910b'
         termId: 'af20b015-2a30-4215-aa19-6f2191cdec59'
     propertyValues: []
-tags: []
