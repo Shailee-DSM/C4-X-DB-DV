@@ -115,8 +115,10 @@ dataflows:
             sourceModelObjectId: '092513f5-76ef-4e78-992e-f66d58b75244'
           - id: '50fc9549-288e-4dab-a9da-95d389ecd943'
             alias: 's2'
+            joinExpression: 'S2.SALESORDERID=S1.SALESORDERID'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'd8872b92-2172-4b5e-b347-5b1a98721d54'
+            propertyValues: []
         termMappings:
           - termId: 'be3968b0-f4d8-4acc-94bf-052d7b97f76a'
           - termId: 'ff3b006f-08b1-4b7a-85b2-612cbb5f0a1f'
