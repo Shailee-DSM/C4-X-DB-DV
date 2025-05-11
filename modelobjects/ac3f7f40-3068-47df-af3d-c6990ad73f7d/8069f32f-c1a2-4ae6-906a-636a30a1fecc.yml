@@ -1,0 +1,82 @@
+id: '8069f32f-c1a2-4ae6-906a-636a30a1fecc'
+name: 'SALESORDERDETAIL'
+description: 'Generated Model Object from SALESORDERDETAIL'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+terms:
+  - id: 'e2815110-3fb7-4486-9c84-759e9f22f176'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'c64cd92c-ad72-4e0b-aaa2-854a17bf084d'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a98b238a-3335-4f28-b94d-6c30c62ace3c'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '31597430-195b-4cc2-b176-961318d3e175'
+    name: 'salesorderid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'fbb449b1-f2dd-4f1c-bcf8-a379f76e4878'
+    name: 'salesorderdetailid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+dataflows:
+  - id: 'e650381c-090f-4c2c-b88e-a0841da95f0b'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '42614c55-a911-4ac1-9d9a-439af6ca993d'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '3dc434a6-7ff3-49b9-b21b-32f961abb2d4'
+            alias: 's1'
+            sourceModelObjectId: '092513f5-76ef-4e78-992e-f66d58b75244'
+        termMappings:
+          - termId: 'e2815110-3fb7-4486-9c84-759e9f22f176'
+          - termId: 'c64cd92c-ad72-4e0b-aaa2-854a17bf084d'
+          - termId: 'a98b238a-3335-4f28-b94d-6c30c62ace3c'
+          - expression: '3dc434a6-7ff3-49b9-b21b-32f961abb2d4.34ba20ff-b00c-4fe9-aff4-29b1a6583760'
+            termId: '31597430-195b-4cc2-b176-961318d3e175'
+          - expression: '3dc434a6-7ff3-49b9-b21b-32f961abb2d4.c4add88b-50e7-4165-9271-466e23e9142b'
+            termId: 'fbb449b1-f2dd-4f1c-bcf8-a379f76e4878'
