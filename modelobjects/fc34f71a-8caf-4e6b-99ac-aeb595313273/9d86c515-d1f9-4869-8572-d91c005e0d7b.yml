@@ -98,6 +98,14 @@ dataflows:
     dataflowSets:
       - id: 'c2425ea0-fa31-42db-9eaa-d671a8c8aeb7'
         name: 'Set1'
+        dataflowModelObjects:
+          - id: '9366b226-29e5-4087-a7fa-d872d8b83c41'
+            alias: 's1'
+            sourceModelObjectId: 'cad64eb7-45ee-42c2-a89b-82fd61e8b37d'
+          - id: '994c6606-f120-4cb5-9c16-9a3a15c36f49'
+            alias: 's2'
+            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            sourceModelObjectId: 'd8872b92-2172-4b5e-b347-5b1a98721d54'
         termMappings:
           - termId: '442b571f-9b01-45e6-98fe-f00f7803a59e'
           - termId: 'cf822cf2-5067-484d-a240-74045f5ed527'
