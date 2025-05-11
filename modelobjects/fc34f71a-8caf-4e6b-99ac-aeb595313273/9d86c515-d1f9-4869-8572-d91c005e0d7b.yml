@@ -42,6 +42,56 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4416edfe-7586-454c-aad7-910ebf4add6b'
+    name: 'FK_CREDITCARD_creditcardid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '2ba4d020-581f-4d3a-af96-dc212352175f'
+    name: 'CREDITCARD_CREDITCARD_HK'
+    description: 'Identifier of the referenced Hub record'
+    defaultTermId: '3e06f270-8fdf-4e8e-80f6-3583cf8bf51c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: true
+    isIdentity: false
+    isIdentityForeignKey: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0048d27d-384b-4ee7-ae42-c0ef6738142b'
+    name: 'FK_ORDER_salesorderid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'cef737eb-e05f-49ef-80ba-519b48e56c18'
+    name: 'ORDER_ORDER_HK'
+    description: 'Identifier of the referenced Hub record'
+    defaultTermId: '3e06f270-8fdf-4e8e-80f6-3583cf8bf51c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: true
+    isIdentity: false
+    isIdentityForeignKey: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'c061e32b-e4ba-4008-b421-42d2a5f19a01'
     name: 'Dataflow1'
@@ -52,4 +102,27 @@ dataflows:
           - termId: '442b571f-9b01-45e6-98fe-f00f7803a59e'
           - termId: 'cf822cf2-5067-484d-a240-74045f5ed527'
           - termId: '59d324d6-d815-4265-979a-26256632338f'
+          - termId: '4416edfe-7586-454c-aad7-910ebf4add6b'
+          - termId: '2ba4d020-581f-4d3a-af96-dc212352175f'
+          - termId: '0048d27d-384b-4ee7-ae42-c0ef6738142b'
+          - termId: 'cef737eb-e05f-49ef-80ba-519b48e56c18'
+relationships:
+  - id: 'd5d02d8d-df25-4cc4-a5bc-1f1237651965'
+    referencedModelObjectId: '696b16a1-c557-49d2-8f64-69d6186a2959'
+    role: 'CREDITCARD'
+    additionalTermIds:
+      - '2ba4d020-581f-4d3a-af96-dc212352175f'
+    relationshipTerms:
+      - referenceTermId: 'db3bb50b-40f4-4448-91e5-d6da2065f288'
+        termId: '4416edfe-7586-454c-aad7-910ebf4add6b'
+    propertyValues: []
+  - id: 'c7e65f67-f343-454a-befd-7dd80d5b83a9'
+    referencedModelObjectId: 'aba3a8b8-9ee4-450c-9733-cb88c8ca6b79'
+    role: 'ORDER'
+    additionalTermIds:
+      - 'cef737eb-e05f-49ef-80ba-519b48e56c18'
+    relationshipTerms:
+      - referenceTermId: '09b78fce-9fb7-4921-9f97-d8260673910b'
+        termId: '0048d27d-384b-4ee7-ae42-c0ef6738142b'
+    propertyValues: []
 tags: []
