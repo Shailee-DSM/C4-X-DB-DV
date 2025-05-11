@@ -26,3 +26,5 @@ views:
     type: 'data-model'
     modelObjects:
       - id: 'c783ad56-e36d-4fe6-9da7-747d4aad19fe'
+      - id: '38159132-657d-4ced-84aa-c9897d6eb94c'
+      - id: 'a2a85427-9d81-455b-bfb4-fd566a4d96de'
