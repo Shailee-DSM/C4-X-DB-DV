@@ -1,0 +1,119 @@
+id: 'fdc55fcd-daad-41a9-976a-8a870a21b071'
+name: 'C3-X-DB-FI'
+timestamp: '2025-05-11T17:41:14+00:00'
+sourceObjects:
+  - id: '0d3c687f-ead9-46b3-84e5-5c90e32c9962'
+    name: 'CUSTOMERCRM'
+    description: 'Generated Model Object from CUSTOMERCRM'
+    fullyQualifiedName: 'STG_ST_CUSTOMERCRM_Result'
+    modelObjectType: 'Stage'
+    terms:
+      - id: '8b34df9d-b307-4cc5-bb1f-191755a6a609'
+        name: 'BG_SourceFilePath'
+        description: 'Default term, which stores the name of theinput file'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: '6167efe3-471a-43b5-8921-e20fd4a396c6'
+        name: 'BG_LoadTimestamp'
+        description: 'Default term with the load timestamp'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - id: 'b62c2d4d-539e-489a-ae3c-a0c045de35f5'
+        name: 'BG_SourceSystem'
+        description: 'Default term with an identifier of the source system'
+        isBusinessKey: false
+        isDefaultTerm: true
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'f6d96946-33a0-402a-b6c3-723a96d62e16'
+        name: 'AccountNumber'
+        isBusinessKey: true
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - id: 'c593f406-1557-4a42-af50-4cefaac85761'
+        name: 'Marital_Status'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: '7abe33e1-2ee0-49ab-bb9d-28d2220a6ed3'
+        name: 'Gender'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - id: 'c2b49613-6177-4020-af89-8a0c2ac53551'
+        name: 'Number_Of_Children'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'integer'
+          isNullable: true
+      - id: '2228bc86-dcb6-4476-a160-e337c11763ac'
+        name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    dataLineage:
+      connections:
+        - sourceModelObjectId: 'ce613b63-02c2-4161-8286-07e03945be02'
+          targetModelObjectId: '0d3c687f-ead9-46b3-84e5-5c90e32c9962'
+      modelObjects:
+        - id: '0d3c687f-ead9-46b3-84e5-5c90e32c9962'
+          name: 'CUSTOMERCRM'
+          modelObjectType: 'Stage'
+        - id: 'ce613b63-02c2-4161-8286-07e03945be02'
+          name: 'CUSTOMERCRM'
+          modelObjectType: 'Source'
+    objectType:
+      name: 'table'
+sourceSystem:
+  type: 'Spark'
+tags:
+  - '$linkedproject#generatorVersion#1.8.0'
+  - '$linkedproject#id#1aaf4e89-d95f-402f-7390-08dd7ccec69f'

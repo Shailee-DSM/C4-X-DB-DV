@@ -10,3 +10,7 @@ sourceSystems:
     name: 'ADW_FI'
     isLinkedProject: true
     sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
+  - id: '9c7289e4-5f92-4193-b646-4e2865998a97'
+    name: 'CRM_FI'
+    isLinkedProject: true
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
