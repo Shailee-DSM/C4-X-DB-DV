@@ -12,7 +12,6 @@ views:
       - id: '092513f5-76ef-4e78-992e-f66d58b75244'
       - id: 'd8872b92-2172-4b5e-b347-5b1a98721d54'
       - id: '696b16a1-c557-49d2-8f64-69d6186a2959'
-      - id: '38159132-657d-4ced-84aa-c9897d6eb94c'
       - id: 'f2ba6e68-f5d6-4e8e-a6f0-5b463db0360d'
       - id: 'c63300fe-9eb0-4f8e-a81d-944cf0492da9'
       - id: '1cf8bd55-c7a8-4a72-a861-f8c22b7aff7e'
@@ -28,7 +27,3 @@ views:
         collapsed: false
         x: 0
         'y': 0
-      - id: '38159132-657d-4ced-84aa-c9897d6eb94c'
-        collapsed: false
-        x: 436
-        'y': 54
