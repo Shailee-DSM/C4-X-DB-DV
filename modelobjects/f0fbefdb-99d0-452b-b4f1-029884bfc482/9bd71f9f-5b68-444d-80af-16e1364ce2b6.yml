@@ -152,6 +152,16 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: '16e6e452-e02c-4a3f-933b-3cf0fec8156f'
+    name: 'cardnumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'd36b52b8-16ef-4914-b3fb-840599545bbf'
     name: 'Dataflow1'
@@ -222,4 +232,6 @@ dataflows:
             termId: '1435a852-a0fa-416c-8c0b-ca46a0721df5'
           - expression: '18c4f383-6d31-41ae-ac4a-23acfd47ad5c.3f17f3a0-b4f8-4b40-af20-9cc1b8071cfe'
             termId: '071dffc1-cb1e-49d0-9841-039e7fffd9cd'
+          - expression: '2d0c4e8d-4caf-4847-9815-e76c17ea9b57.4b4b3583-6724-4b62-a751-1e18be8bfcc1'
+            termId: '16e6e452-e02c-4a3f-933b-3cf0fec8156f'
 tags: []
