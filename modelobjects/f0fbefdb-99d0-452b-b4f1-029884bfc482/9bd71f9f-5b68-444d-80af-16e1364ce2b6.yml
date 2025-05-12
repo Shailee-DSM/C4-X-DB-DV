@@ -197,31 +197,6 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
-  - id: '80ed80c2-a5ac-49dc-9604-ed0ba82fa08c'
-    name: 'FK_D_SUPERIORCREDITCARD_creditcardid'
-    hiddenInSource: true
-    hiddenInTarget: false
-    isBusinessKey: false
-    isBusinessKeyForeignKey: true
-    isForeignKey: true
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
-  - id: '26e9e728-bed1-40bc-937b-283f1bb59075'
-    name: 'D_SUPERIORCREDITCARD_D_SUPERIORCREDITCARD_SK'
-    description: 'Default term with the identity of the referenced mart dimension'
-    defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
-    hiddenInSource: false
-    hiddenInTarget: true
-    isBusinessKey: false
-    isDefaultTerm: true
-    isForeignKey: true
-    isIdentity: false
-    isIdentityForeignKey: true
-    isNullable: false
-    dataType:
-      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
   - id: 'f0db2650-0eff-42e5-bbeb-a8e26c210336'
     name: 'FK_D_CURRENCY_D_CURRENCY1_currencycode'
     hiddenInSource: true
@@ -323,8 +298,6 @@ dataflows:
             termId: '5383f14d-02ac-4242-9905-382ccb34c358'
           - termId: '57893e8c-da14-479e-9a35-a336d8330eac'
           - termId: 'e103aba4-df88-4e5f-b714-e610a43506ad'
-          - termId: '80ed80c2-a5ac-49dc-9604-ed0ba82fa08c'
-          - termId: '26e9e728-bed1-40bc-937b-283f1bb59075'
           - termId: 'f0db2650-0eff-42e5-bbeb-a8e26c210336'
           - termId: '51b7d50f-6598-49ac-af44-06863838420a'
 relationships:
@@ -336,15 +309,6 @@ relationships:
     relationshipTerms:
       - referenceTermId: 'af7ceb9f-edeb-4b96-b48d-229667bd363a'
         termId: '57893e8c-da14-479e-9a35-a336d8330eac'
-    propertyValues: []
-  - id: 'cc39ab9a-d1ea-44f8-a05b-042665d4efda'
-    referencedModelObjectId: 'c56be1cb-04aa-403b-bacd-5489f9ed0fd0'
-    role: 'D_SUPERIORCREDITCARD'
-    additionalTermIds:
-      - '26e9e728-bed1-40bc-937b-283f1bb59075'
-    relationshipTerms:
-      - referenceTermId: '7712035e-db6f-4ca5-8783-07988d2dbb68'
-        termId: '80ed80c2-a5ac-49dc-9604-ed0ba82fa08c'
     propertyValues: []
   - id: 'f1788d1a-5b17-4403-99b1-c31db90bbbcb'
     referencedModelObjectId: '0c602096-62be-4bb7-a20e-43610d63f52a'
