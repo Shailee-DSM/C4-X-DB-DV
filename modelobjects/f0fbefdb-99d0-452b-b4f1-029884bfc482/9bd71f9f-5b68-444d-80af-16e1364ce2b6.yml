@@ -104,10 +104,6 @@ dataflows:
           - id: '2e5820e4-8451-473b-a634-059bf6abb839'
             alias: 's2'
             sourceModelObjectId: '0a534dd7-4802-43c8-8d55-ce8be7a300b5'
-          - id: 'd0039683-1a4c-439d-80d4-727cfff693fa'
-            alias: 's3'
-            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
-            sourceModelObjectId: '373331a0-0839-4f22-ac9f-831c4079ec23'
         termMappings:
           - termId: '7a8d3126-f587-4781-9c1c-2e6c5eb56c53'
           - termId: '1c82d6f9-6691-44e5-a6a5-8811e57aa0a6'
