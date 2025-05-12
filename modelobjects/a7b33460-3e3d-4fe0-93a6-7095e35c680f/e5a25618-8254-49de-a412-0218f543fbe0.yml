@@ -211,6 +211,7 @@ dataflows:
     dataflowSets:
       - id: '1e99a62c-c182-4509-9c19-ddcee37cdfed'
         name: 'Set1'
+        whereExpression: '6bc19de1-4fcc-4de7-bd7f-03387a145ccb.480a7c7e-d386-468e-a940-a430aca6123b = ''SuperiorCard'''
         dataflowModelObjects:
           - id: '6bc19de1-4fcc-4de7-bd7f-03387a145ccb'
             alias: 's1'
@@ -245,6 +246,7 @@ dataflows:
             termId: '10e7eee1-7321-452e-af1d-5290dcc12619'
           - expression: '6bc19de1-4fcc-4de7-bd7f-03387a145ccb.19cd4550-a59f-4a83-bd3d-2f72973a170d'
             termId: 'da4d6682-7dde-4f8f-b59e-067ccca59d5a'
+        propertyValues: []
 relationships:
   - id: 'cef55b73-6d1c-4a34-86a1-2854543c73f2'
     referencedModelObjectId: '8535dabe-c4cb-4f85-9ebb-ec5fac076bf0'
