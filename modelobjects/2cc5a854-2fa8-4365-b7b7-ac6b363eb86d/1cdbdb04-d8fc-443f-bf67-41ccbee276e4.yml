@@ -308,6 +308,60 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '335cf420-3082-4fa3-becb-228ac5b4257c'
+    name: 'currencyratedate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'ae836153-a10d-4df1-9797-3b0a61c2d707'
+    name: 'fromcurrencycode'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '03f5e2f5-ca78-4505-bd57-5561f928c0ef'
+    name: 'tocurrencycode'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '002cb694-115e-4a94-ba37-c6f835dfe6e1'
+    name: 'averagerate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
+  - id: '3dd1fd86-2d5d-4f09-a994-b485ae7bba51'
+    name: 'endofdayrate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: '0a3218af-5e28-4745-8308-2af502683047'
     name: 'Dataflow1'
@@ -381,3 +435,13 @@ dataflows:
             termId: 'c4c2eed1-8d0a-4e76-b8c2-62344325b5a5'
           - expression: '8e25ebb2-175f-4d55-9c36-6d9d2ed2bc72.4e739d39-0fc0-49ae-bfda-4f49216ae988'
             termId: '8ae5cca8-6175-45a9-81d9-4ea2a6c0d27a'
+          - expression: '50c7e672-9488-49fb-a622-9f46ea452d5a.d5b6ee5b-a3d4-4e1d-a8f6-84b8c2864eab'
+            termId: '335cf420-3082-4fa3-becb-228ac5b4257c'
+          - expression: '50c7e672-9488-49fb-a622-9f46ea452d5a.9dbe5b25-49df-4973-9dd4-0663eeb1d3ff'
+            termId: 'ae836153-a10d-4df1-9797-3b0a61c2d707'
+          - expression: '50c7e672-9488-49fb-a622-9f46ea452d5a.5e7ed070-9685-4978-beb5-942b98b1ba57'
+            termId: '03f5e2f5-ca78-4505-bd57-5561f928c0ef'
+          - expression: '50c7e672-9488-49fb-a622-9f46ea452d5a.e1439e29-a1b1-4a40-a4ea-472bf4d64588'
+            termId: '002cb694-115e-4a94-ba37-c6f835dfe6e1'
+          - expression: '50c7e672-9488-49fb-a622-9f46ea452d5a.251de199-f0d7-4ef8-a4e1-82eaab9e65d8'
+            termId: '3dd1fd86-2d5d-4f09-a994-b485ae7bba51'
