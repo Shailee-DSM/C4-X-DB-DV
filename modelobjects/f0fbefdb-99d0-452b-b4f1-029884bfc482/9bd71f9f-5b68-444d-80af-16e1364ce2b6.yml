@@ -106,6 +106,18 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: '123b35d5-5517-4b09-ae54-6653493e7cd1'
+    name: 'taxamt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'd36b52b8-16ef-4914-b3fb-840599545bbf'
     name: 'Dataflow1'
@@ -168,4 +180,6 @@ dataflows:
           - termId: '5dc55975-c0d1-4217-a023-edb463ffc1c9'
           - expression: '69755cd8-473e-4914-aa15-f996e9ae32f8.f5713986-2682-4aaa-afab-922b2a19cf95'
             termId: '7252ab32-d4aa-4393-b24c-763a88f476a3'
+          - expression: '69755cd8-473e-4914-aa15-f996e9ae32f8.eb4e9c4d-d3b1-4491-a6da-2603f6cea03c'
+            termId: '123b35d5-5517-4b09-ae54-6653493e7cd1'
 tags: []
