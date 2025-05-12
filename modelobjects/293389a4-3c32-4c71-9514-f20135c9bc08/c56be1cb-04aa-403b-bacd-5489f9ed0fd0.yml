@@ -146,6 +146,9 @@ dataflows:
           - id: 'c43d2bd4-ef94-4c80-8da1-796d15adf3b9'
             alias: 's1'
             sourceModelObjectId: 'e5a25618-8254-49de-a412-0218f543fbe0'
+            propertyValues:
+              - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
+                value: 'c4683c5c-c641-41dc-91b0-92c3a41a37f5'
           - id: '821e67c2-207b-4154-ad73-71ed84ae26c5'
             alias: 's2'
             joinExpression: 'c43d2bd4-ef94-4c80-8da1-796d15adf3b9.a987ca25-957d-4170-b326-58f6f05f29d8=821e67c2-207b-4154-ad73-71ed84ae26c5.757f9166-2446-42ba-881e-71c5707b2f22'
