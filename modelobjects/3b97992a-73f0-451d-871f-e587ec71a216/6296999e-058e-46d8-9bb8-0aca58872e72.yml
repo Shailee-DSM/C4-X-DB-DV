@@ -145,16 +145,6 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
-  - id: 'daee5373-f39c-41de-b055-0cc231881145'
-    name: 'modifieddate'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
   - id: '6ca00046-f80a-4e41-ae4e-87d49f6601ea'
     name: 'fromcurrencycode'
     hiddenInSource: false
@@ -221,8 +211,6 @@ dataflows:
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.e83827e0-c9e1-4045-8cd2-4c9885df6cad'
             termId: '83167a0c-7817-40aa-915c-e6c5cf4ae148'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.c4c2eed1-8d0a-4e76-b8c2-62344325b5a5'
-            termId: 'daee5373-f39c-41de-b055-0cc231881145'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.ae836153-a10d-4df1-9797-3b0a61c2d707'
             termId: '6ca00046-f80a-4e41-ae4e-87d49f6601ea'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.03f5e2f5-ca78-4505-bd57-5561f928c0ef'
