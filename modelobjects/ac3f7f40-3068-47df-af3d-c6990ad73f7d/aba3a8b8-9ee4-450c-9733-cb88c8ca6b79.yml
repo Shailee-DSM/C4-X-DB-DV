@@ -58,7 +58,7 @@ dataflows:
     name: 'Dataflow1'
     dataflowSets:
       - id: '16ec0f1d-8dbb-4e91-bfcf-3c80fc52ff72'
-        name: 'Set_ADW'
+        name: 'SetADW'
         dataflowModelObjects:
           - id: 'd0558830-ad99-40e6-8fbd-fc11e0d6bd06'
             alias: 's1'
