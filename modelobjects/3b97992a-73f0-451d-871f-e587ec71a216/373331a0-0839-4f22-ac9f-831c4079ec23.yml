@@ -165,6 +165,18 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3f17f3a0-b4f8-4b40-af20-9cc1b8071cfe'
+    name: 'endofdayrate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: '55932b39-7115-4cf6-a5b3-3ce6feab8747'
     name: 'Dataflow1'
@@ -192,4 +204,6 @@ dataflows:
             termId: '226ff800-4290-4194-84ff-d33fc4074e0e'
           - expression: '874928cf-1c35-446e-8f36-e858ba04fad6.03f5e2f5-ca78-4505-bd57-5561f928c0ef'
             termId: '66bd18b2-b71d-4d9a-997c-dc43c01d7617'
+          - expression: '874928cf-1c35-446e-8f36-e858ba04fad6.3dd1fd86-2d5d-4f09-a994-b485ae7bba51'
+            termId: '3f17f3a0-b4f8-4b40-af20-9cc1b8071cfe'
 tags: []
