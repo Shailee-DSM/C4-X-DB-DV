@@ -118,6 +118,18 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: 'a30ea9fb-76ac-4472-a5a4-4e83c29f299d'
+    name: 'totaldue'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'd36b52b8-16ef-4914-b3fb-840599545bbf'
     name: 'Dataflow1'
@@ -182,4 +194,6 @@ dataflows:
             termId: '7252ab32-d4aa-4393-b24c-763a88f476a3'
           - expression: '69755cd8-473e-4914-aa15-f996e9ae32f8.eb4e9c4d-d3b1-4491-a6da-2603f6cea03c'
             termId: '123b35d5-5517-4b09-ae54-6653493e7cd1'
+          - expression: '69755cd8-473e-4914-aa15-f996e9ae32f8.cb1c5c2e-4c5b-493b-9d72-b8437982e3d3'
+            termId: 'a30ea9fb-76ac-4472-a5a4-4e83c29f299d'
 tags: []
