@@ -52,6 +52,7 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+    propertyValues: []
   - id: '70081903-2bcc-478f-b461-623ce03ba748'
     name: 'name'
     hiddenInSource: false
