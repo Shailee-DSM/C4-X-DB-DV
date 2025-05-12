@@ -162,6 +162,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5383f14d-02ac-4242-9905-382ccb34c358'
+    name: 'cardtype'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'd36b52b8-16ef-4914-b3fb-840599545bbf'
     name: 'Dataflow1'
@@ -234,4 +244,6 @@ dataflows:
             termId: '071dffc1-cb1e-49d0-9841-039e7fffd9cd'
           - expression: '2d0c4e8d-4caf-4847-9815-e76c17ea9b57.4b4b3583-6724-4b62-a751-1e18be8bfcc1'
             termId: '16e6e452-e02c-4a3f-933b-3cf0fec8156f'
+          - expression: '2d0c4e8d-4caf-4847-9815-e76c17ea9b57.7bce3cb2-a082-4f2a-ace6-a2e1f5abf7d0'
+            termId: '5383f14d-02ac-4242-9905-382ccb34c358'
 tags: []
