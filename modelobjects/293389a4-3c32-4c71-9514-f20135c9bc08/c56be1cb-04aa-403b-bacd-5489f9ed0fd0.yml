@@ -1,6 +1,7 @@
 id: 'c56be1cb-04aa-403b-bacd-5489f9ed0fd0'
-name: 'CREDITCARD_SUPERIORCARD'
+name: 'D_SUPERIORCREDITCARD'
 description: 'Generated Model Object from CREDITCARD_SUPERIORCARD'
+isDeactivated: false
 modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
 terms:
   - id: '84be4c05-f4b5-4de6-94fb-c41ff281265d'
@@ -69,7 +70,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '9f0152e2-2ce5-4278-8a5b-db09dc8b912a'
-    name: 'CREDITCARD_SUPERIORCARD_SK'
+    name: 'D_SUPERIORCREDITCARD_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
