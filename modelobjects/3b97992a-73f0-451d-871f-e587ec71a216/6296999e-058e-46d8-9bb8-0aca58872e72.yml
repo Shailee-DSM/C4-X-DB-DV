@@ -443,6 +443,17 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: '928029b2-88fb-4941-bad1-026a2bcdd380'
+    name: 'FK_ORDER_salesorderid'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
 dataflows:
   - id: '0af94248-3de3-46aa-8227-d3668b4db8c0'
     name: 'Dataflow1'
@@ -524,4 +535,14 @@ dataflows:
             termId: '6a3ed9b0-d6d2-4fc4-b938-7d79feccd5b0'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.3dd1fd86-2d5d-4f09-a994-b485ae7bba51'
             termId: '4908933e-cba9-442a-91c9-dfb7a3d8e134'
+          - termId: '928029b2-88fb-4941-bad1-026a2bcdd380'
+relationships:
+  - id: '1c844406-1ae5-46fd-b345-dd9208f03bdb'
+    referencedModelObjectId: 'aba3a8b8-9ee4-450c-9733-cb88c8ca6b79'
+    role: 'ORDER'
+    additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: '09b78fce-9fb7-4921-9f97-d8260673910b'
+        termId: '928029b2-88fb-4941-bad1-026a2bcdd380'
+    propertyValues: []
 tags: []
