@@ -142,8 +142,10 @@ dataflows:
             propertyValues: []
           - id: '2d0c4e8d-4caf-4847-9815-e76c17ea9b57'
             alias: 's8'
-            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            joinExpression: '2d0c4e8d-4caf-4847-9815-e76c17ea9b57.a987ca25-957d-4170-b326-58f6f05f29d8=3c34a606-a3ff-4639-b473-42d54dad60d6.757f9166-2446-42ba-881e-71c5707b2f22'
+            joinOperatorId: 'ccd0c803-6c68-405c-9ede-c8ca4883f3ba'
             sourceModelObjectId: 'e5a25618-8254-49de-a412-0218f543fbe0'
+            propertyValues: []
         termMappings:
           - termId: '7a8d3126-f587-4781-9c1c-2e6c5eb56c53'
           - termId: '1c82d6f9-6691-44e5-a6a5-8811e57aa0a6'
