@@ -94,6 +94,18 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7252ab32-d4aa-4393-b24c-763a88f476a3'
+    name: 'subtotal'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'd36b52b8-16ef-4914-b3fb-840599545bbf'
     name: 'Dataflow1'
@@ -154,4 +166,6 @@ dataflows:
           - termId: '0894de77-e431-4d77-9648-a2f57cd1f74b'
           - termId: '219a875e-8c62-4f28-b5bc-8fe64ec9cc47'
           - termId: '5dc55975-c0d1-4217-a023-edb463ffc1c9'
+          - expression: '69755cd8-473e-4914-aa15-f996e9ae32f8.f5713986-2682-4aaa-afab-922b2a19cf95'
+            termId: '7252ab32-d4aa-4393-b24c-763a88f476a3'
 tags: []
