@@ -100,10 +100,7 @@ dataflows:
     dataflowSets:
       - id: 'f3fc1f6c-e23d-47b7-9b32-56466481b2c6'
         name: 'Set1'
-        dataflowModelObjects:
-          - id: 'f4f40351-606a-4601-b7b5-3297aa8bbd37'
-            alias: 's1'
-            sourceModelObjectId: 'aba3a8b8-9ee4-450c-9733-cb88c8ca6b79'
+        dataflowModelObjects: []
         termMappings:
           - termId: '7a8d3126-f587-4781-9c1c-2e6c5eb56c53'
           - termId: '1c82d6f9-6691-44e5-a6a5-8811e57aa0a6'
