@@ -133,16 +133,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
-  - id: 'a6c6b5a3-e45a-4aff-9ec8-9c2364d35265'
-    name: 'salesorderid'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: true
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
   - id: '8047ce46-0e22-4290-8a86-f14b445f2cf7'
     name: 'revisionnumber'
     hiddenInSource: false
@@ -465,8 +455,6 @@ dataflows:
           - termId: 'd63b72ea-fd46-47ff-9bb9-4ba5e7fa80f4'
           - termId: '33626735-00f8-46ed-b62d-affa4b6297dd'
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.514eb2b8-4fbe-45f7-8574-7c0d5cc76d36'
-            termId: 'a6c6b5a3-e45a-4aff-9ec8-9c2364d35265'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.0a1a07cb-3e7d-4f28-86cb-37eb5ee3c24a'
             termId: '8047ce46-0e22-4290-8a86-f14b445f2cf7'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.efd8d8ac-ee8e-47c1-8436-7a0c2dde73dd'
