@@ -68,12 +68,13 @@ terms:
     name: 'modifieddate'
     hiddenInSource: false
     hiddenInTarget: false
-    isBusinessKey: true
+    isBusinessKey: false
     isForeignKey: false
     isIdentity: false
     isNullable: true
     dataType:
       platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+    propertyValues: []
   - id: 'cefce37b-469a-442b-adcc-54dfec173c39'
     name: 'dt'
     hiddenInSource: false
