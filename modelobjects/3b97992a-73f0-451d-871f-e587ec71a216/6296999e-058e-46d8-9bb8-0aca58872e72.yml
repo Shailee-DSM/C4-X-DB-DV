@@ -401,16 +401,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
-  - id: '4bb30210-1cc1-47bf-a482-7121918b30d0'
-    name: 'dt'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '6ca00046-f80a-4e41-ae4e-87d49f6601ea'
     name: 'fromcurrencycode'
     hiddenInSource: false
@@ -527,8 +517,6 @@ dataflows:
             termId: '88ac4d1d-63a8-4f72-933e-65269e2de824'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.c4c2eed1-8d0a-4e76-b8c2-62344325b5a5'
             termId: 'daee5373-f39c-41de-b055-0cc231881145'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.8ae5cca8-6175-45a9-81d9-4ea2a6c0d27a'
-            termId: '4bb30210-1cc1-47bf-a482-7121918b30d0'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.ae836153-a10d-4df1-9797-3b0a61c2d707'
             termId: '6ca00046-f80a-4e41-ae4e-87d49f6601ea'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.03f5e2f5-ca78-4505-bd57-5561f928c0ef'
