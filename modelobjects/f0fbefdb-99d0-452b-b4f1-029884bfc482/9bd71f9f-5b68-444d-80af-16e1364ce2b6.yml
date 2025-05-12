@@ -136,8 +136,10 @@ dataflows:
             propertyValues: []
           - id: '3c34a606-a3ff-4639-b473-42d54dad60d6'
             alias: 's7'
-            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            joinExpression: '771340ec-ec79-494c-b446-dd521961643f.8f47fa67-540b-4384-a08b-1d5aa8cc498e=3c34a606-a3ff-4639-b473-42d54dad60d6.757f9166-2446-42ba-881e-71c5707b2f22'
+            joinOperatorId: 'ccd0c803-6c68-405c-9ede-c8ca4883f3ba'
             sourceModelObjectId: '8535dabe-c4cb-4f85-9ebb-ec5fac076bf0'
+            propertyValues: []
         termMappings:
           - termId: '7a8d3126-f587-4781-9c1c-2e6c5eb56c53'
           - termId: '1c82d6f9-6691-44e5-a6a5-8811e57aa0a6'
