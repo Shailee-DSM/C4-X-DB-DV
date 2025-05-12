@@ -145,16 +145,6 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
-  - id: 'd1161768-6104-45f8-9601-b6a4b4b14684'
-    name: 'comment'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '88ac4d1d-63a8-4f72-933e-65269e2de824'
     name: 'rowguid'
     hiddenInSource: false
@@ -241,8 +231,6 @@ dataflows:
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.e83827e0-c9e1-4045-8cd2-4c9885df6cad'
             termId: '83167a0c-7817-40aa-915c-e6c5cf4ae148'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.2ba20efe-de68-459d-8446-b74b7636882b'
-            termId: 'd1161768-6104-45f8-9601-b6a4b4b14684'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.ed3f2307-3c8d-4667-8271-55574e36c423'
             termId: '88ac4d1d-63a8-4f72-933e-65269e2de824'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.c4c2eed1-8d0a-4e76-b8c2-62344325b5a5'
