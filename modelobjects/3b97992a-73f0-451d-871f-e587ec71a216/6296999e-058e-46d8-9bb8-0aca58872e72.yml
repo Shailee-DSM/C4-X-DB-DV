@@ -133,16 +133,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
-  - id: 'afdf4d41-d070-4bbe-a8dd-bf038cf7fbac'
-    name: 'orderdate'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
   - id: '4b1db256-83d5-4ccd-b912-28d1ccfcbb4b'
     name: 'duedate'
     hiddenInSource: false
@@ -445,8 +435,6 @@ dataflows:
           - termId: 'd63b72ea-fd46-47ff-9bb9-4ba5e7fa80f4'
           - termId: '33626735-00f8-46ed-b62d-affa4b6297dd'
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.efd8d8ac-ee8e-47c1-8436-7a0c2dde73dd'
-            termId: 'afdf4d41-d070-4bbe-a8dd-bf038cf7fbac'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.62102b1a-7d1f-49ea-92d6-5c830f776123'
             termId: '4b1db256-83d5-4ccd-b912-28d1ccfcbb4b'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.ebc19b2a-9ab9-4654-98c9-de910279c71c'
