@@ -108,8 +108,7 @@ dataflows:
           - termId: 'c1425a50-a5b3-4a08-b74d-a54e94317239'
           - termId: '486ea73e-7acd-4eda-a396-af8ad1f3a5f7'
           - termId: '51eb17aa-8aa4-4f01-a19d-80df5c334909'
-          - expression: '8e1fe448-10f2-4cbd-a77e-d7c885e0981c.db3bb50b-40f4-4448-91e5-d6da2065f288'
-            termId: 'db205a5f-75c1-40cb-b306-aa68dbe64967'
+          - termId: 'db205a5f-75c1-40cb-b306-aa68dbe64967'
           - termId: '8f47fa67-540b-4384-a08b-1d5aa8cc498e'
 relationships:
   - id: '324f6b04-2cca-4d36-a77d-8ce1e1239ca0'
