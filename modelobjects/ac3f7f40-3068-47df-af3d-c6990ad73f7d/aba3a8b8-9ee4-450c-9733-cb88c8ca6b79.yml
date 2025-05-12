@@ -70,16 +70,3 @@ dataflows:
           - expression: 'd0558830-ad99-40e6-8fbd-fc11e0d6bd06.9eb44d31-e5f4-4375-9a43-a2184b764e73'
             termId: '09b78fce-9fb7-4921-9f97-d8260673910b'
         propertyValues: []
-      - id: '65e0dd0a-3c9a-467b-8e59-afa21a51a660'
-        name: 'SETCRM'
-        setOperatorId: '12bf835d-5821-4113-ac0f-942e66c64dbb'
-        dataflowModelObjects:
-          - id: '9de2ec6b-0340-4d21-b8a8-5ca18e01e88a'
-            alias: 's1'
-            sourceModelObjectId: '0d3c687f-ead9-46b3-84e5-5c90e32c9962'
-        termMappings:
-          - termId: 'ce346b97-15e8-4ae7-bb64-873847a05aca'
-          - termId: 'aa91e016-2d26-477d-a3f4-54f9f37497cb'
-          - termId: '594321a9-12d9-44f6-8035-7e56c8f680a8'
-          - termId: '09b78fce-9fb7-4921-9f97-d8260673910b'
-        propertyValues: []
