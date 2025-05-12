@@ -133,18 +133,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
-  - id: 'fe31bd6d-b0a8-4b8a-b538-075baee8e55c'
-    name: 'freight'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
-      precision: 19
-      scale: 4
   - id: '83167a0c-7817-40aa-915c-e6c5cf4ae148'
     name: 'totaldue'
     hiddenInSource: false
@@ -251,8 +239,6 @@ dataflows:
           - termId: 'd63b72ea-fd46-47ff-9bb9-4ba5e7fa80f4'
           - termId: '33626735-00f8-46ed-b62d-affa4b6297dd'
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.e161b28c-aa9f-470b-8924-31e1e30a6acc'
-            termId: 'fe31bd6d-b0a8-4b8a-b538-075baee8e55c'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.e83827e0-c9e1-4045-8cd2-4c9885df6cad'
             termId: '83167a0c-7817-40aa-915c-e6c5cf4ae148'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.2ba20efe-de68-459d-8446-b74b7636882b'
