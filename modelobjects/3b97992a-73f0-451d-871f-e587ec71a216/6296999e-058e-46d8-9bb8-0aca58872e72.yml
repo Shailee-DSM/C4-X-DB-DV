@@ -133,16 +133,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
-  - id: '9bd1286e-a24a-48e9-9053-ad32ebc4b30e'
-    name: 'onlineorderflag'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
   - id: '35c14700-76bf-4fd8-b8d3-749663ffb539'
     name: 'salesordernumber'
     hiddenInSource: false
@@ -405,8 +395,6 @@ dataflows:
           - termId: 'd63b72ea-fd46-47ff-9bb9-4ba5e7fa80f4'
           - termId: '33626735-00f8-46ed-b62d-affa4b6297dd'
           - termId: '5aa70ecf-5b23-4f2c-8a23-ea55b3a4c376'
-          - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.7eeb95bf-f7db-4b47-9888-94a97c020dd9'
-            termId: '9bd1286e-a24a-48e9-9053-ad32ebc4b30e'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.09b5940c-3b11-445e-ace7-9dbd9799dc58'
             termId: '35c14700-76bf-4fd8-b8d3-749663ffb539'
           - expression: 'ed262087-aaf3-4492-9a18-20f941f27a42.73ee796d-1a7a-4196-91aa-5ca629c06f66'
